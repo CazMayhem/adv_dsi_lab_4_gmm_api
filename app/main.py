@@ -35,4 +35,7 @@ def predict(genre: str,	age: int, income: int, spending: int):
     return JSONResponse(pred.tolist())
 
     
+"""
+docker build -t gmm-fastapi:latest .
+"""    
         
